@@ -32,7 +32,7 @@ function Faqs() {
 	return (
 		<section className="faqs">
 			<section className="illustration__container">
-				<picture>
+				{/* <picture>
 					<source
 						srcSet="illustration-woman-online-desktop.svg"
 						media="(min-width: 700px)"
@@ -42,8 +42,7 @@ function Faqs() {
 						alt="an illustration of a woman online"
 						className="illustration"
 					/>
-				</picture>
-
+				</picture> */}
 			</section>
 
 			<section className="faq__contents">
