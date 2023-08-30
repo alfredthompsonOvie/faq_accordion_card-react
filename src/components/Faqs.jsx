@@ -31,23 +31,10 @@ const faqs = [
 function Faqs() {
 	return (
 		<section className="faqs">
-			<section className="illustration__container">
-				{/* <picture>
-					<source
-						srcSet="illustration-woman-online-desktop.svg"
-						media="(min-width: 700px)"
-					/>
-					<img
-						src="illustration-woman-online-mobile.svg"
-						alt="an illustration of a woman online"
-						className="illustration"
-					/>
-				</picture> */}
-			</section>
+			<section className="illustration__container"></section>
 
 			<section className="faq__contents">
 				<h1 className="faq__title">Faq</h1>
-
 				<Accordion faqs={faqs} />
 			</section>
 		</section>
