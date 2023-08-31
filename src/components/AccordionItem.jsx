@@ -4,7 +4,7 @@ function AccordionItem({faq, isOpen, onToggle}) {
     <div className={`faq ${isOpen  === faq.question ? "open" : ""}`} onClick={() => onToggle(faq.question)}>
       <section className="faq__heading">
       <h2 className="faq--question">{faq.question}</h2>
-        <img src="icon-arrow-down.svg" alt="" className="arrow" />
+        <img src="/assets/images/icon-arrow-down.svg" alt="arrow icon" className="arrow" />
       </section>
       {isOpen === faq.question && <p className="faq--answer">{faq.answer}</p>}
     </div>
