@@ -54,7 +54,7 @@ img {
 	background-color: #fff;
 	border-radius: 2.5em;
 	padding: 1em 1.5em 2em;
-	background-image: url("bg-pattern-mobile.svg");
+	background-image: url("/bg-pattern-mobile.svg");
 	background-repeat: no-repeat;
 	background-position: 50% 1em;
 	background-size: 70%;
@@ -63,7 +63,7 @@ img {
 .faqs::before {
 	width: 100%;
 	content: "";
-	background-image: url("illustration-woman-online-mobile.svg");
+	background-image: url("/illustration-woman-online-mobile.svg");
 	background-repeat: no-repeat;
 	background-size: 80%;
 	position: absolute;
